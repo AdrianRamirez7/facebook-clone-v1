@@ -1,3 +1,152 @@
-header {
-    background-color: #5B38A6;
+* {
+    box-sizing: border-box;
+    outline: none;
 }
+
+a {
+    text-decoration: none;
+}
+html {
+    font-family: sans-serif;
+}
+header i[class^="fa-"], i[class^="fa-"]{
+    color: white;
+    font-size: 16px;
+}
+header {
+    background-color: #37538C;
+    padding: 5px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header .logo-area {
+    color: white;
+    display: inline-block;
+    width: 20%;
+    margin-right: -4px;
+}
+header .logo-area a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 30px;
+}
+header .menu {
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+    text-align: right;
+    padding-right: 20px;
+}
+header .menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header .icon-links {
+    display: inline-block;
+    width: 20%;
+    margin-right: -4px;
+    padding: 20px;
+}
+header .icon-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+header .icon-links .quick-options {
+    display: inline-block;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header .icon-links .privacy {
+    display: inline-block;
+    margin-left: -4px;
+    padding-left: 20px;
+}
+header .search-area {
+    display: inline-block;
+    width: 40%;
+    margin-right: -4px;
+    text-align: right;
+}
+header .search-area ul li {
+    display: inline-block;
+}
+
+
+
+/* Top Area Section */
+#top-area {
+    padding: 200px 15px 90px 15px;
+    background: url(https://4kwallpapers.com/images/wallpapers/alps-mountains-mountain-range-summer-sunny-day-forest-clear-3840x2160-5384.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* #top-area {
+    padding: 200px 15px 90px 15px;
+    background: url(https://4kwallpapers.com/images/wallpapers/alps-mountains-mountain-range-summer-sunny-day-forest-clear-3840x2160-5384.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+} */
+
+/* #top-area .profile-info {
+    background-color: purple;
+} */
+
+#top-area .profile-info .user-img {
+    padding: 10px;
+    display: inline-block;
+}
+#top-area .profile-info .user-img img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#top-area .profile-info .user-details {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#top-area .profile-info .user-details h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#top-area .profile-info .user-details a {
+    background: rgba(255, 255, 255, .3);
+    display: inline-block;
+    margin-left: -4px;
+    width: 45%;
+    margin-right: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
