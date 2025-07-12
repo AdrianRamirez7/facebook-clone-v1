@@ -20,7 +20,20 @@ header {
 header a {
     color: white;
     text-decoration: none;
+    transition: transform 0.2s ease-in-out;
 }
+
+header .menu ul li a {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+header .icon-links .quick-options i:hover, header .menu ul a:hover, header .icon-links .privacy i:hover {
+    transform: scale(1.3);
+    color: #ffcc00; /* optional highlight effect */
+}
+
+
 header .logo-area {
     color: white;
     display: inline-block;
@@ -66,6 +79,7 @@ header .icon-links .privacy {
     display: inline-block;
     margin-left: -4px;
     padding-left: 20px;
+    cursor: pointer;
 }
 header .search-area {
     display: inline-block;
@@ -82,35 +96,27 @@ header .search-area ul li {
 /* Top Area Section */
 #top-area {
     padding: 200px 15px 90px 15px;
-    background: url(https://4kwallpapers.com/images/wallpapers/alps-mountains-mountain-range-summer-sunny-day-forest-clear-3840x2160-5384.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+     background: url(https://www.wallanza.com/cdn/shop/files/A149_Almost_nearly_perfect_reflection_of_the_Three_Sisters_Peaks_in_the_Bow_River._58244570-1b77-4313-9194-c3d7bae9449c.jpg?quality=90&v=1734511100&width=1326) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* #top-area {
-    padding: 200px 15px 90px 15px;
-    background: url(https://4kwallpapers.com/images/wallpapers/alps-mountains-mountain-range-summer-sunny-day-forest-clear-3840x2160-5384.jpg) no-repeat center center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll; 
-} */
-
 /* #top-area .profile-info {
-    background-color: purple;
+    background-color: aquamarine;
 } */
 
 #top-area .profile-info .user-img {
-    padding: 10px;
     display: inline-block;
 }
+
 #top-area .profile-info .user-img img {
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
 }
+
 #top-area .profile-info .user-details {
     display: inline-block;
     vertical-align: top;
@@ -121,30 +127,46 @@ header .search-area ul li {
     font-size: 24px;
     font-weight: 300;
     margin-top: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 #top-area .profile-info .user-details a {
     background: rgba(255, 255, 255, .3);
     display: inline-block;
     margin-left: -4px;
-    width: 45%;
     margin-right: 5%;
+    width: 45%;
     text-align: center;
     text-transform: uppercase;
-    color: white;
-    font-size: 10px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    text-decoration: none;
     padding: 10px;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 9px;
+    transition: background .4s ease-in-out;
 }
 
+#top-area .profile-info .user-details a:hover {
+    background: #21906f;
+}
 
+/* Content Section */
 
+#content-area {
 
-
-
+}
+#content-area .side-column{
+    width: 35%;
+    margin: 0 2.5%;
+    float: left;
+}
+#content-area .main-area {
+    width: 55%;
+    margin: 0 2.5%;
+    float: left;
+}
 
 
 
