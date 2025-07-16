@@ -9,7 +9,7 @@ a {
 html {
     font-family: sans-serif;
 }
-header i[class^="fa-"], i[class^="fa-"]{
+header i[class^="fa-user-group"], i[class^="fa-comments"], i[class^="fa"]{
     color: white;
     font-size: 16px;
 }
@@ -18,7 +18,7 @@ header {
     padding: 5px;
 }
 header a {
-    color: white;
+    
     text-decoration: none;
     transition: transform 0.2s ease-in-out;
 }
@@ -39,7 +39,7 @@ header .logo-area {
     display: inline-block;
     width: 20%;
     margin-right: -4px;
-}
+}n
 header .logo-area a {
     color: white;
     text-decoration: none;
@@ -155,20 +155,69 @@ header .search-area ul li {
 /* Content Section */
 
 #content-area {
-
+    overflow: auto;
+    padding: 50px 0;
 }
+#content-area .widget-box {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 3px 6px 0px rgba(138,138,138,0.75);
+-webkit-box-shadow: 1px 3px 6px 0px rgba(138,138,138,0.75);
+-moz-box-shadow: 1px 3px 6px 0px rgba(138,138,138,0.75);
+    margin: 0 0 15px 0;
+    padding: 15px;
+    overflow: auto;
+}
+
+#content-area .widget-box .head .widget-icon{
+    background: #bfbfbf;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content-area .widget-box .head .widget-icon-container {
+    display: inline-block;
+}
+
+
+#content-area .widget-box .head .widget-title {
+    display: inline-block;
+    padding: 0 0 0 15px;
+}
+
+#content-area .widget-box .body {
+    padding: 20px 0;
+}
+
+#content-area .widget-box .head .widget-icon [class*="fa-"] {
+    max-width: 50%;
+    font-size: 20px;
+}
+
 #content-area .side-column{
     width: 35%;
     margin: 0 2.5%;
     float: left;
+    background-color: purple;
+    max-width: 400px;
 }
+
+
 #content-area .main-area {
     width: 55%;
     margin: 0 2.5%;
-    float: left;
+   float: left;
+   background-color: #37538C;
 }
 
+#content-area .main-area .submenu i.fa-solid.fa-clock {
 
+}
 
 
 
